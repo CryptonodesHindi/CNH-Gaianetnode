@@ -2,7 +2,7 @@
 
 # Function to display the main menu
 show_menu() {
-    curl -s https://raw.githubusercontent.com/dwisyafriadi2/logo/main/logo.sh | bash
+    curl -s https://raw.githubusercontent.com/CryptonodesHindi/CryptoNodeHindi/refs/heads/main/CNH-Privatelogo.sh | bash
     echo "=============================="
     echo " GaiaNet Node Management Menu "
     echo "=============================="
