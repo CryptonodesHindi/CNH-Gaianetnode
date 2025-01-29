@@ -82,7 +82,7 @@ uninstall_node() {
 auto_interaction_v1() {
     echo "Starting Auto Interaction with Your Node [V1]..."
     check_node_version
-    local script_path="$HOME/gaianet-node/main.js"
+    local script_path="$HOME/CNH-Gaianetnode/main.js"
     local log_file="$HOME/interaction_v1.log"
     local pid_file="$HOME/interaction_v1.pid"
 
@@ -103,7 +103,7 @@ auto_interaction_v1() {
 auto_interaction_v2() {
     echo "Starting Auto Interaction with Your Node [V2]..."
     check_python_version
-    local script_path="$HOME/gaianet-node/main.py"
+    local script_path="$HOME/CNH-Gaianetnode/main.py"
     local log_file="$HOME/interaction_v2.log"
     local pid_file="$HOME/interaction_v2.pid"
 
