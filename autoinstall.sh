@@ -113,17 +113,17 @@ auto_interaction_v2() {
     fi
 
     # Ensure a virtual environment exists
-    if [ ! -d "$HOME/gaianet-node/env" ]; then
+    if [ ! -d "$HOME/CNH-Gaianetnode/env" ]; then
         echo "Creating Python virtual environment..."
-        python3 -m venv "$HOME/gaianet-node/env"
+        python3 -m venv "$HOME/CNH-Gaianetnode/env"
     fi
 
     # Activate the virtual environment
-    source "$HOME/gaianet-node/env/bin/activate"
+    source "$HOME/CNH-Gaianetnode/env/bin/activate"
 
     # Install required Python dependencies
     echo "Installing required Python packages..."
-    pip install -r "$HOME/gaianet-node/requirements.txt"
+    pip install -r "$HOME/CNH-Gaianetnode/requirements.txt"
 
     # Use nohup to run the Python script in the background
     echo "Starting the Python script with nohup..."
